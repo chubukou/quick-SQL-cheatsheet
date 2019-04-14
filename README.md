@@ -156,7 +156,7 @@ Pull requests are welcome. Enjoy!
 * `SELECT` column_names `FROM` table1 ``FULL OUTER JOIN`` table2 `ON` table1.column_name=table2.column_name;
 
 ### **Self JOIN**: a regular join, but the table is joined with itself
-* `SELECT` column_names `FROM` table1 T1 `[LEFT|RIGHT] JOIN` table1 T2 ON condition T1.column_name=T2.columns_name;
+* `SELECT` column_names `FROM` table1 T1 `[LEFT|RIGHT] JOIN` table1 T2 ON T1.column_name=T2.columns_name;
 
 <a name="view"></a>
 # 5. View Queries
